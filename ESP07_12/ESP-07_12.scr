@@ -1,0 +1,178 @@
+# Library script
+# 
+# Exported from C:/Documents and Settings/Jonny/My Documents/Google Drive/Jonny/Google Drive/Jonny/EagleCAD/Librarii/ESP-07_12.lbr at 5/20/2015 3:56:29 PM
+# 
+# EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer   2 Route2;
+Layer   3 Route3;
+Layer   4 Route4;
+Layer   5 Route5;
+Layer   6 Route6;
+Layer   7 Route7;
+Layer   8 Route8;
+Layer   9 Route9;
+Layer  10 Route10;
+Layer  11 Route11;
+Layer  12 Route12;
+Layer  13 Route13;
+Layer  14 Route14;
+Layer  15 Route15;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit 'ESP-07/12.sym';
+Layer 96;
+Change Size 1.27;
+Change Ratio 8;
+Change Font Proportional;
+Text 'ESP-07/12' R0 (6.25 32.5);
+Layer 97;
+Change Size 1.27;
+Change Ratio 8;
+Text 'ESP-07/12' R0 (6.25 32.5);
+Layer 98;
+Change Size 1.27;
+Change Ratio 8;
+Text 'ESP-07/12' R0 (6.25 32.5);
+Layer 94;
+Change Style Continuous;
+Wire  0.254 (0 0) (0 50.8) (35.56 50.8) (35.56 0) \
+      (0 0);
+Pin 'P$1' I/O None Middle R0 Both 0 (-5.08 43.18);
+Pin 'P$2' I/O None Middle R0 Both 0 (-5.08 38.1);
+Pin 'P$3' I/O None Middle R0 Both 0 (-5.08 33.02);
+Pin 'P$4' I/O None Middle R0 Both 0 (-5.08 27.94);
+Pin 'P$5' I/O None Middle R0 Both 0 (-5.08 22.86);
+Pin 'P$6' I/O None Middle R0 Both 0 (-5.08 17.78);
+Pin 'P$7' I/O None Middle R0 Both 0 (-5.08 12.7);
+Pin 'P$8' I/O None Middle R0 Both 0 (-5.08 7.62);
+Pin 'P$9' I/O None Middle R180 Both 0 (40.64 7.62);
+Pin 'P$10' I/O None Middle R180 Both 0 (40.64 12.7);
+Pin 'P$11' I/O None Middle R180 Both 0 (40.64 17.78);
+Pin 'P$12' I/O None Middle R180 Both 0 (40.64 22.86);
+Pin 'P$13' I/O None Middle R180 Both 0 (40.64 27.94);
+Pin 'P$14' I/O None Middle R180 Both 0 (40.64 33.02);
+Pin 'P$15' I/O None Middle R180 Both 0 (40.64 38.1);
+Pin 'P$16' I/O None Middle R180 Both 0 (40.64 43.18);
+Layer 95;
+Change Size 1.27;
+Change Ratio 8;
+Text 'ESP-07/12' R0 (12.7 27.94);
+
+Edit 'ESP-07/12.pac';
+Description '';
+Layer 21;
+Wire  0.127 (0 0) (0 22) (16 22) (16 0) \
+      (0 0);
+Layer 39;
+Wire  0.127 (2 22) (16 22) (16 18) (0 18) \
+      (0 22) (2 22);
+Layer 41;
+Wire  0.127 (0 22) (16 22) (16 18) (0 18) \
+      (0 22);
+Layer 1;
+Smd 'TXD' 2.54 1.27 -0 R0 (17 16);
+Layer 1;
+Smd 'RXD' 2.54 1.27 -0 R0 (17 14);
+Layer 1;
+Smd 'GPIO4' 2.54 1.27 -0 R0 (17 12);
+Layer 1;
+Smd 'GPIO5' 2.54 1.27 -0 R0 (17 10);
+Layer 1;
+Smd 'GPIO0' 2.54 1.27 -0 R0 (17 8);
+Layer 1;
+Smd 'GPIO2' 2.54 1.27 -0 R0 (17 6);
+Layer 1;
+Smd 'GPIO15' 2.54 1.27 -0 R0 (17 4);
+Layer 1;
+Smd 'GND' 2.54 1.27 -0 R0 (17 2);
+Layer 1;
+Smd 'VCC' 2.54 1.27 -0 R0 (-1 2);
+Layer 1;
+Smd 'GPIO13' 2.54 1.27 -0 R0 (-1 4);
+Layer 1;
+Smd 'GPIO12' 2.54 1.27 -0 R0 (-1 6);
+Layer 1;
+Smd 'GPIO14' 2.54 1.27 -0 R0 (-1 8);
+Layer 1;
+Smd 'GPIO16' 2.54 1.27 -0 R0 (-1 10);
+Layer 1;
+Smd 'CH_PD' 2.54 1.27 -0 R0 (-1 12);
+Layer 1;
+Smd 'ADC' 2.54 1.27 -0 R0 (-1 14);
+Layer 1;
+Smd 'REST' 2.54 1.27 -0 R0 (-1 16);
+Layer 2;
+Wire  0.127 (0 22) (16 22) (16 18) (0 18) \
+      (0 22);
+Layer 29;
+Rect R0 (0 18) (16 22);
+Layer 29;
+Change Size 1.27;
+Change Ratio 8;
+Text 'ESP-07/12' R0 (6 19);
+
+Edit 'ESP-07/12.dev';
+Prefix '';
+Description '\
+Version 1.0 of the library for the ESP-07/12 full GPIO dev board module\n\
+\n\
+\n\
+ byME Jon\n\
+jonnyradu@gmail.com';
+Value Off;
+Add ESP-07/12 'G$1' Next 1 (-12.7 -7.62);
+Package 'ESP-07/12' '''''';
+Technology '';
+Connect  'G$1.P$1' 'TXD'  'G$1.P$2' 'RXD'  'G$1.P$3' 'GPIO4'  'G$1.P$4' 'GPIO5'  'G$1.P$5' 'GPIO0' \
+         'G$1.P$6' 'GPIO2'  'G$1.P$7' 'GPIO15'  'G$1.P$8' 'GND'  'G$1.P$9' 'VCC'  'G$1.P$10' 'GPIO13'  'G$1.P$11' 'GPIO12' \
+         'G$1.P$12' 'GPIO14'  'G$1.P$13' 'GPIO16'  'G$1.P$14' 'CH_PD'  'G$1.P$15' 'ADC'  'G$1.P$16' 'REST';
+Grid inch;
